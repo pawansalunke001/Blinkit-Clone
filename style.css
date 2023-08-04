@@ -1,8 +1,12 @@
+/* Body CSS */
 *{
     margin: 0px;
     padding: 0px;
 }
+/* End of Body CSS */
 
+/* Start of Navbar css */
+/* header is styled with CSS to have a specific background color, font size, and alignment */
 .blink-it-navbar{
     border-bottom: 1px solid rgb(238, 238, 238);
     position: sticky;
@@ -40,7 +44,10 @@
 .search-bar>input:focus{
     outline: none;
 }
+/* End of Navbar css */
 
+
+/* Products Cards */
 .my-scrollable-div{
     display: flex;
     justify-content: center;
@@ -69,10 +76,10 @@ pre
 pre-wrap
 */
 
+/* Hide scrollbar */
 ::-webkit-scrollbar{
     display: none;
 }
-
 
 .my-categories{
     display: flex;
@@ -114,13 +121,10 @@ pre-wrap
     margin-bottom: 6px;
 }
 
-
-
 .product-weight{
     color:#666666;
     font-size: 11px;
 }
-
 
 .product-price{
     color: rgb(31, 31, 31);
@@ -139,11 +143,16 @@ pre-wrap
     padding: 5px 10px;
 }
 
+/* Products Cards ends here */
+
+/* Category css */
 .my-category-row{
     display: flex;
     justify-content: space-between;
 }
+/* Category css end */
 
+/* Footer CSS */
 
 .my-footer{
     display: flex;
@@ -232,3 +241,5 @@ tr>th{
 .table-1{
     flex: 2;
 }
+
+/* Footer CSS Ends here */
